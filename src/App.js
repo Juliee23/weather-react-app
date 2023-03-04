@@ -7,7 +7,7 @@ function App() {
   return (
     <div class="App">
       <div class="container-wrapper">
-        <h1>🌏 Weather Forecast</h1>
+        <h1> Weather Forecast</h1>
         <div class="content">
           <Weather />
         </div>
