@@ -1,24 +1,17 @@
 import "./App.css";
+import Footer from "./Footer";
 import Weather from "./Weather";
 
 function App() {
   return (
     <div className="App">
-      <h1>Weather Search Engine</h1>
-
-      <Weather />
-
-      <footer>
-        {" "}
-        <a
-          href="https://github.com/"
-          target="_blank"
-          rel="Juliet"
-        >
-          {" "}
-          Open source code{" "}
-        </a>
-      </footer>
+      <div className="container-wrapper">
+        <h1>🌏 Weather Forecast</h1>
+        <div className="content">
+          <Weather />
+        </div>
+      </div>
+      <Footer />
     </div>
   );
 }
