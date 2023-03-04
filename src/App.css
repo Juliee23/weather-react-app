@@ -2,11 +2,7 @@
   width: 72%;
   margin: 20px auto;
   color: whitesmoke;
-  border: 3px solid rgb(101, 62, 197);
   border-radius: 14px;
-  background: linear-gradient(109.6deg,
-      rgb(43, 1, 91) 13.4%,
-      rgba(122, 2, 54, 0.859) 100.2%);
   font-family: "Poppins";
   overflow: hidden;
 }
