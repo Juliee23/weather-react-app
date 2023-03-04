@@ -1,19 +1,19 @@
 import "./App.css";
-import SearchEngine from "./SearchEngine";
+import Weather from "./Weather";
 
 function App() {
   return (
     <div className="App">
       <h1>Weather Search Engine</h1>
 
-      <SearchEngine />
+      <Weather />
 
       <footer>
         {" "}
         <a
           href="https://github.com/"
           target="_blank"
-          rel="noreferrer"
+          rel="Juliet"
         >
           {" "}
           Open source code{" "}
