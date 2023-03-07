@@ -1,20 +1,32 @@
-import React from 'react';
-import "./App.css";
-import Footer from "./Footer";
+import React from "react";
 import Weather from "./Weather";
+import "./App.css";
 
-function App() {
+export default function App() {
   return (
-    <div class="App">
-      <div class="container-wrapper">
-        <h1> Weather Forecast</h1>
-        <div class="content">
-          <Weather />
-        </div>
+    <div className="App">
+      <div className="container">
+        <Weather defaultCity="New York" />
+
+        <footer>
+          This project was coded by Juliet Akani Ngomani and is{" "}
+          <a
+            href="https://github.com/Juliee23/weather-react-app"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            open-sourced on GitHub
+          </a>{" "}
+          and{" "}
+          <a
+            href="https://master--venerable-profiterole-6c0a8d.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            hosted on Netlify
+          </a>
+        </footer>
       </div>
-      <Footer />
     </div>
   );
 }
-
-export default App;

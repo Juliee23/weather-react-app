@@ -1,40 +1,9 @@
-.container-wrapper {
-  width: 72%;
-  margin: 20px auto;
-  color: whitesmoke;
-  border: 3px solid rgb(101, 62, 197);
-  border-radius: 14px;
-  background: linear-gradient(109.6deg,
-      rgb(99, 96, 101) 13.4%,
-      rgba(185, 115, 145, 0.859) 100.2%);
-  font-family: "Poppins";
-  overflow: hidden;
+.App {
+  max-width: 600px;
+  margin: 30px auto;
 }
 
-.content {
-  margin-top: 25px;
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: flex-end;
-}
-
-h1 {
-  padding: 10px 20px;
-  color: rgb(254, 255, 255);
-  border-bottom: 2px solid rgb(199, 176, 255);
-}
-
-a {
-  text-decoration: none;
-}
-
-a:hover {
-  color: hotpink;
-}
-
-@media screen and (max-width: 676px) {
-  h1 {
-    text-align: center;
-  }
+.App footer {
+  font-size: 11px;
+  margin: 10px 0;
 }
